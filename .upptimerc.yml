@@ -1,36 +1,33 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: areebahmeddd
+repo: care_uptime
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
-  - name: IPv6 test
-    url: forwardemail.net
-    port: 80
-    check: "tcp-ping"
-    ipv6: true
+  # Production
+  - name: Landing
+    url: https://ohc.network
+  - name: Care
+    url: https://care.ohc.network
+  - name: Care API
+    url: https://careapi.ohc.network
+  - name: Documentation
+    url: https://docs.ohc.network
+  - name: Leaderboard
+    url: https://contributors.ohc.network
+  - name: School
+    url: https://school.ohc.network
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  cname: status.areeb.dev
+  name: Open Healthcare Network Uptime
+  logoUrl: https://cdn.ohc.network/care_logo.svg
+  favicon: https://github.com/ohcnetwork/care_fe/blob/develop/public/favicon.ico
+  introTitle: "Welcome to the OHC Network Status Page"
+  introMessage: Monitor the uptime and performance of key services across the Open Healthcare Network. For questions or issues, please [contact us](mailto:support@ohc.network).
   navbar:
     - title: Status
       href: /
     - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+      href: https://github.com/ohcnetwork
 
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+assignees:
+  - areebahmeddd
