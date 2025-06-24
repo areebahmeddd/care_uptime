@@ -58,9 +58,9 @@
     "url": "https://docs.ohc.network",
     "icon": "https://icons.duckduckgo.com/ip3/docs.ohc.network.ico",
     "slug": "documentation",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -69,7 +69,9 @@
     "timeWeek": 188,
     "timeMonth": 244,
     "timeYear": 265,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-06-24": 0
+    }
   },
   {
     "name": "Leaderboard",
